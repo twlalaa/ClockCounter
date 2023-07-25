@@ -2,8 +2,8 @@
 
 const changeCounter = () => {
   const today = new Date();
-  const lanaDay = new Date(2025, 5, 21);
-  const sD = (lanaDay - today) / 1000;
+  const gradDay = new Date(2025, 5, 21);
+  const sD = (gradDay - today) / 1000;
   const yearDiff = Math.floor(sD / 60 / 60 / 24 / 365);
 
   const dayDiff = Math.floor((sD / 60 / 60 / 24) % 365);
